@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<style>
+  body {
+      background-image: url('https://thumbs.dreamstime.com/z/3d-different-currencies-symbols-27180462.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      height: 100vh;
+  }
+</style>
+<body>
+  <div class="converter-container">
+    <header>
+      <p class="date" id="currentDate"></p>
+      <p class="title">Currency</p>
+    </header>
+    <div class="converter-body">
+      <input type="number" id="amount" placeholder="Enter amount" class="amount-input">
+      <div class="currency-selectors">
+        <select id="fromCurrency" class="currency-dropdown"></select>
+        <button class="swap-btn" onclick="swapCurrencies()">⇆</button>
+        <select id="toCurrency" class="currency-dropdown"></select>
+      </div>
+      <button class="convert-btn" onclick="convertCurrency()">Convert</button>
+      <p id="resultDiv" class="result"></p>
+    </div>
+  </div>
+</body>
+</html>

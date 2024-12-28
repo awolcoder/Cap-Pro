@@ -1,0 +1,119 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}
+
+body {
+  background-image: url('https://thumbs.dreamstime.com/z/3d-different-currencies-symbols-27180462.jpg');
+  background-size: cover; /* Makes the image cover the entire screen */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  margin: 0; /* Removes any default margin for a full-screen background */
+  height: 100vh; /* Ensures the background spans the full viewport height */
+}
+
+
+.converter-container {
+  background: #800324;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba(186, 144, 240, 0.5); /* Black background with 50% transparency */
+}
+
+header {
+  text-align: center;
+}
+
+.date {
+  font-size: 14px;
+  color: #270354;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: bold;
+  color: #014765;
+}
+
+.amount-input {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #130000;
+  outline: none;
+  text-align: center;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.currency-selectors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.currency-dropdown {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #b1b1d2;
+  text-align: center;
+  flex: 1;
+}
+
+.swap-btn {
+  background-color: #25004c;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.swap-btn:hover {
+  background-color: #641f9a;
+}
+
+.convert-btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #25004c;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.convert-btn:hover {
+  background-color: #641f9a;
+}
+
+.result {
+  font-size: 24px;
+  color: #322301;
+  margin-top: 20px;
+  font-weight: bold;
+}
