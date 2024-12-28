@@ -6,7 +6,7 @@ const amountInput = document.getElementById("amount");
 const resultDiv = document.getElementById("resultDiv");
 const currentDate = document.getElementById("currentDate");
 
-// Set today's date
+// Set today's date wow
 function setCurrentDate() {
   const date = new Date();
   const options = { year: "numeric", month: "long", day: "numeric" };
